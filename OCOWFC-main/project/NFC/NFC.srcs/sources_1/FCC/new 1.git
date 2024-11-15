@@ -1,0 +1,67 @@
+
+Karthik Patil@DESKTOP-BM2OVRJ MINGW64 ~
+$ cd OneDrive
+
+Karthik Patil@DESKTOP-BM2OVRJ MINGW64 ~/OneDrive
+$ cd Desktop/script
+
+Karthik Patil@DESKTOP-BM2OVRJ MINGW64 ~/OneDrive/Desktop/script (master)
+$ ls
+names.txt
+
+Karthik Patil@DESKTOP-BM2OVRJ MINGW64 ~/OneDrive/Desktop/script (master)
+$ git log
+commit 98bc8546cc452e8466ed8b9d9b2ee80fea263093 (HEAD -> master)
+Author: Karthik Patil <kp0519740@gmail.com>
+Date:   Thu Oct 31 20:30:33 2024 +0530
+
+    names.txt file added
+
+Karthik Patil@DESKTOP-BM2OVRJ MINGW64 ~/OneDrive/Desktop/script (master)
+$ ls
+names.txt
+
+Karthik Patil@DESKTOP-BM2OVRJ MINGW64 ~/OneDrive/Desktop/script (master)
+$ ls names.txt
+names.txt
+
+Karthik Patil@DESKTOP-BM2OVRJ MINGW64 ~/OneDrive/Desktop/script (master)
+$ git remote addd origin https://github.com/kp355/CommunityClassroom-Git
+error: unknown subcommand: `addd'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename [--[no-]progress] <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --[no-]verbose    be verbose; must be placed before a subcommand
+
+
+Karthik Patil@DESKTOP-BM2OVRJ MINGW64 ~/OneDrive/Desktop/script (master)
+$ git remote add origin https://github.com/kp355/CommunityClassroom-Git
+
+Karthik Patil@DESKTOP-BM2OVRJ MINGW64 ~/OneDrive/Desktop/script (master)
+$ git remote -v
+origin  https://github.com/kp355/CommunityClassroom-Git (fetch)
+origin  https://github.com/kp355/CommunityClassroom-Git (push)
+
+Karthik Patil@DESKTOP-BM2OVRJ MINGW64 ~/OneDrive/Desktop/script (master)
+$ git push origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 221 bytes | 221.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/kp355/CommunityClassroom-Git
+ * [new branch]      master -> master
+
+Karthik Patil@DESKTOP-BM2OVRJ MINGW64 ~/OneDrive/Desktop/script (master)
+$
